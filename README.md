@@ -8,7 +8,7 @@ into its own directory, with relevant code, documentation, and examples included
 
 The projects are organized as follows:
 - basic-stock-analysis/
-	-This project focuses on basic stock data processing and analysis. It reads daily stock 
+	- This project focuses on basic stock data processing and analysis. It reads daily stock 
      data from CSV files, structures it using a flexible StockData class, and computes basic 
      descriptive statistics such as daily returns, average daily returns, and identifying the 
      largest gains and losses. The project demonstrates efficient use of the C++ Standard 
