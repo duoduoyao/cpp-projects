@@ -11,7 +11,7 @@ Date,Open,High,Low,Close,Volume
 10/04/2023,171.09,174.21,170.97,173.66,53020289
 ```
 
-Description for each file:
+### Description for each file:
 1. __StockData.hpp__ declares a StockData class to track individual records
    from a file. Note that this class as a static method (i.e., the method
    belongs to the class) to create a StockData object from a string.
@@ -23,16 +23,20 @@ Description for each file:
 6. __Makefile__ generates the stock executable.
 7. __appl_202310.csv__ contains Apple's stock data from October 2023.
 
+### Building and Running Projects
+	1.	Navigate to the basic-stock-analysis directory: cd basic-stock-analysis
+	2.	Build the project using the provided Makefile (if applicable): make
+	3.	Run the executable: ./stock appl_202310.csv
 
-STL functions:
+### The results(standard output) as follows:
+Average Daily Return: -0.08%
+Largest Gain: 1.48% on 20231006
+Largest Loss: -2.46% on 20231026
+
+### STL functions:
 - [accumulate()](https://en.cppreference.com/w/cpp/algorithm/accumulate)
 - [max_element()](https://en.cppreference.com/w/cpp/algorithm/max_element)
 - [min_element()](https://en.cppreference.com/w/cpp/algorithm/min_element)
 - [begin()](https://en.cppreference.com/w/cpp/iterator/begin) 
 - [end()](https://en.cppreference.com/w/cpp/iterator/end)
 - [std::distance](https://en.cppreference.com/w/cpp/iterator/distance)
-
-The results(standard output) as follows:
-Average Daily Return: -0.08%
-Largest Gain: 1.48% on 20231006
-Largest Loss: -2.46% on 20231026
