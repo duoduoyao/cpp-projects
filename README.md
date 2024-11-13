@@ -7,13 +7,13 @@ into its own directory, with relevant code, documentation, and examples included
 ## Repository Structure
 
 The projects are organized as follows:
-	•	basic-stock-analysis/
-	    •	This project focuses on basic stock data processing and analysis. It reads daily stock 
+- basic-stock-analysis/
+	-This project focuses on basic stock data processing and analysis. It reads daily stock 
      data from CSV files, structures it using a flexible StockData class, and computes basic 
      descriptive statistics such as daily returns, average daily returns, and identifying the 
      largest gains and losses. The project demonstrates efficient use of the C++ Standard 
      Template Library (STL) for data handling.
-	•	(I will add more projects later, e.g., “project2/”, “project3/”)
+- (I will add more projects later, e.g., “project2/”, “project3/”)
 
 ## Getting Started
 ### Prerequisites
