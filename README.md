@@ -18,8 +18,8 @@ The projects are organized as follows:
 ## Getting Started
 ### Prerequisites
 To compile and run the C++ projects, you will need:
-	•	A C++ compiler (e.g., g++)
-	•	CMake (optional, for building projects if applicable)
+- A C++ compiler (e.g., g++)
+- CMake (optional, for building projects if applicable)
  
 ### Cloning the Repository
 To clone this repository to your local machine:
